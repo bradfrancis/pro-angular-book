@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "files": ["./dist/**/*.{html,htm,css,js}"],
+  "server": { "baseDir": "./" },
+  "ui": {
+    "port": 8081
+  },
+  "ghostMode": false,
+  "reloadDelay": 1000,
+  "reloadDebounce": 1000,
+  "injectChanges": false,
+  "minify": false
+}

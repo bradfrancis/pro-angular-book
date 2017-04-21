@@ -58,3 +58,6 @@ typings/
 .env
 
 *.bak
+
+# If working on a Mac..
+.DS_Store
