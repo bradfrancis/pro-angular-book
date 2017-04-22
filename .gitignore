@@ -61,3 +61,6 @@ typings/
 
 # If working on a Mac..
 .DS_Store
+
+# WebStorm files
+.idea/
