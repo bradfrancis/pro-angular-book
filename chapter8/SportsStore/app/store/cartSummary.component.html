@@ -5,7 +5,7 @@
             {{ cart.itemCount }} item(s)
             {{ cart.cartPrice | currency:"AUD":true:"2.2-2" }}
         </span>
-        <span *ngIf="cart.itemCount == 0">
+        <span *ngIf="cart.itemCount == 0" routerLink="/cart">
             <button class="btn btn-sm bg-inverse" [disabled]="cart.itemCount == 0">
                 <i class="fa fa-shopping-cart"></i>
             </button>
